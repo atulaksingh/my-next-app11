@@ -11,7 +11,101 @@ import Footer from "@/Components/Shared/Footer";
 import Deal from "@/Components/Main/Deal";
 import HomeBanner from "@/Components/Main/HomeBanner";
 import Header from "@/Components/Shared/Header";
-
+const data = [
+  {
+    image:
+      "https://res.cloudinary.com/dt0j68vdr/image/upload/v1722486399/Frame_22_lqp0we.png",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dt0j68vdr/image/upload/v1722486399/Frame_22_lqp0we.png",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dt0j68vdr/image/upload/v1722486399/Frame_22_lqp0we.png",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dt0j68vdr/image/upload/v1722486399/Frame_22_lqp0we.png",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dt0j68vdr/image/upload/v1722486399/Frame_22_lqp0we.png",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dt0j68vdr/image/upload/v1722486399/Frame_22_lqp0we.png",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dt0j68vdr/image/upload/v1722486399/Frame_22_lqp0we.png",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dt0j68vdr/image/upload/v1722486399/Frame_22_lqp0we.png",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dt0j68vdr/image/upload/v1722486399/Frame_22_lqp0we.png",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dt0j68vdr/image/upload/v1722486399/Frame_22_lqp0we.png",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dt0j68vdr/image/upload/v1722486399/Frame_22_lqp0we.png",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dt0j68vdr/image/upload/v1722486399/Frame_22_lqp0we.png",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dt0j68vdr/image/upload/v1722486399/Frame_22_lqp0we.png",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dt0j68vdr/image/upload/v1722486399/Frame_22_lqp0we.png",
+  },
+];
+const data1 = [
+  {
+    image:
+      "https://res.cloudinary.com/dt0j68vdr/image/upload/v1722492573/Frame_25_zdlyj1.png",
+  },  {
+    image:
+      "https://res.cloudinary.com/dt0j68vdr/image/upload/v1722492573/Frame_25_zdlyj1.png",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dt0j68vdr/image/upload/v1722492573/Frame_25_zdlyj1.png",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dt0j68vdr/image/upload/v1722492573/Frame_25_zdlyj1.png",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dt0j68vdr/image/upload/v1722492573/Frame_25_zdlyj1.png",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dt0j68vdr/image/upload/v1722492573/Frame_25_zdlyj1.png",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dt0j68vdr/image/upload/v1722492573/Frame_25_zdlyj1.png",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dt0j68vdr/image/upload/v1722492573/Frame_25_zdlyj1.png",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dt0j68vdr/image/upload/v1722492573/Frame_25_zdlyj1.png",
+  },
+];
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -25,8 +119,9 @@ export default function Home() {
           <Banner />
           <SmartHome />
           <Banner2 />
+          <NewLounched  data={data1} title={"Offers for You"}/>
           <HighDemand />
-          <NewLounched />
+          <NewLounched  data={data} title={"Smart Home Buying"}/>
           <PopularBuilders />
         </div>
         <Deal />

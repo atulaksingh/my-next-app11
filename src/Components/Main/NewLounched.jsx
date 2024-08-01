@@ -6,70 +6,12 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css";
 import Image from "next/image";
-const data = [
-  {
-    image:
-      "https://res.cloudinary.com/dt0j68vdr/image/upload/v1722486399/Frame_22_lqp0we.png",
-  },
-  {
-    image:
-      "https://res.cloudinary.com/dt0j68vdr/image/upload/v1722486399/Frame_22_lqp0we.png",
-  },
-  {
-    image:
-      "https://res.cloudinary.com/dt0j68vdr/image/upload/v1722486399/Frame_22_lqp0we.png",
-  },
-  {
-    image:
-      "https://res.cloudinary.com/dt0j68vdr/image/upload/v1722486399/Frame_22_lqp0we.png",
-  },
-  {
-    image:
-      "https://res.cloudinary.com/dt0j68vdr/image/upload/v1722486399/Frame_22_lqp0we.png",
-  },
-  {
-    image:
-      "https://res.cloudinary.com/dt0j68vdr/image/upload/v1722486399/Frame_22_lqp0we.png",
-  },
-  {
-    image:
-      "https://res.cloudinary.com/dt0j68vdr/image/upload/v1722486399/Frame_22_lqp0we.png",
-  },
-  {
-    image:
-      "https://res.cloudinary.com/dt0j68vdr/image/upload/v1722486399/Frame_22_lqp0we.png",
-  },
-  {
-    image:
-      "https://res.cloudinary.com/dt0j68vdr/image/upload/v1722486399/Frame_22_lqp0we.png",
-  },
-  {
-    image:
-      "https://res.cloudinary.com/dt0j68vdr/image/upload/v1722486399/Frame_22_lqp0we.png",
-  },
-  {
-    image:
-      "https://res.cloudinary.com/dt0j68vdr/image/upload/v1722486399/Frame_22_lqp0we.png",
-  },
-  {
-    image:
-      "https://res.cloudinary.com/dt0j68vdr/image/upload/v1722486399/Frame_22_lqp0we.png",
-  },
-  {
-    image:
-      "https://res.cloudinary.com/dt0j68vdr/image/upload/v1722486399/Frame_22_lqp0we.png",
-  },
-  {
-    image:
-      "https://res.cloudinary.com/dt0j68vdr/image/upload/v1722486399/Frame_22_lqp0we.png",
-  },
-];
 
-function NewLounched() {
+function NewLounched({data,title}) {
   return (
     <>
       <div className="my-10">
-        <div className="text-xl font-medium py-4">Smart Home Buying</div>
+        <div className="text-xl font-medium py-4">{title}</div>
         <div className="mx-10">
           <Swiper
             slidesPerView={6}

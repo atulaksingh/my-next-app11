@@ -1,5 +1,7 @@
 import Image from "next/image";
 import React from "react";
+import ButtonCard from "../Cards/ButtonCard";
+import { IoIosArrowRoundForward } from "react-icons/io";
 
 function HomeBanner() {
   return (
@@ -31,7 +33,7 @@ function HomeBanner() {
               <div className="font-bold text-7xl text-black">
                 Find Your Perfect Home with Dreamhausi
               </div>
-              <div className="text-lg mt-10">
+              <div className="text-lg mt-5">
                 Search through our handpicked selection of homes and apartments
                 to find the one that fits your lifestyle perfectly.
               </div>
@@ -48,6 +50,14 @@ function HomeBanner() {
                 Whether you're looking for a cozy apartment in the city or a
                 spacious family home in the suburbs, our listings are designed
                 to help you find the perfect place to call home.
+              </div>
+              <div className="w-fit text-center  mt-3 cursor-pointer">
+                <div className="flex px-5 py-2 rounded-md  align-middle items-center  bg-[#FF6400] text-white text-center">
+                  <div>Book a Call</div>
+                  <div>
+                    <IoIosArrowRoundForward size={25} />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
