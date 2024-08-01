@@ -6,6 +6,7 @@ function OurServices() {
   return (
     <>
       <div className="container py-10">
+      <div className="text-xl font-medium ">Our Services</div>
         <div className="grid grid-cols-5 gap-7 p-4">
           <div className="">
             <ServicesCard />

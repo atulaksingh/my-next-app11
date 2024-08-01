@@ -4,8 +4,10 @@
 
 .mySwiper .swiper-button-next {
   color: #ff5e14;
+  /* margin-right: 10px; */
 }
 .mySwiper .swiper-button-prev {
   color: #ff5e14;
+  /* margin-left: -21px; */
 }
 
